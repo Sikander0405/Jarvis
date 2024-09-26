@@ -30,7 +30,7 @@ def move_window_quarter(position):
     time.sleep(1)  # Wait for the window to be positioned
 
 def open_browsers():
-    f=open("pythoncodes/webLibrary.txt")
+    f=open("webLibrary.txt")
  
     positions = ["top_left", "top_right", "bottom_left", "bottom_right"]
 
